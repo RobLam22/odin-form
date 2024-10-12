@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-height: auto;
+    max-width: 500px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left {
+    display: flex;
+    max-width: 40vw;
+    height: auto;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.top {
+    padding: 50px
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.formfields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.leftform, .rightform {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightform {
+    align-items:flex-end;
+    flex-grow: 0;
+}
